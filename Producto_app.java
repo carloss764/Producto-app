@@ -14,6 +14,9 @@ public class Producto_app {
 private void Interfaz() {
     //Creamos el Formulario Principal
     JFrame formulario = new JFrame("Gestion de Productos - Droguería la Principal - Pereira");
+
+    //Configuramos el comportamiento del boton X 
+    formulario.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
     //
 }
 }
